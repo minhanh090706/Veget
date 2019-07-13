@@ -1,0 +1,75 @@
+.sign-in {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url("https://www.cleaneatingmag.com/.image/c_fit%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1280/MTYwNTE2OTUyNTMwMzYzNTYz/clean-vegetarian-recipes.jpg");
+    background-size: cover;
+    font-family: 'Arimo', sans-serif;
+    
+}
+
+.sign-in-content {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #BBDF1E;
+}
+
+#sign-in-form {
+    background-color: white;
+    height: 300px;
+    width: 200px;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.combo {
+    display: flex;
+    flex-flow: column;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: left;
+    color: #BBDF1E;
+}
+
+.combo > input {
+    margin: 13px 0px;
+    border-radius: 4px;
+    height: 20px;
+    padding-left: 8px;
+    border: none;
+    box-shadow: 1px 1px 3px gray;
+}
+
+#reme {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+}
+
+#reme > div {
+    line-height: 20px;
+    margin-left: 8px;
+}
+
+#btn_signin {
+    background: #BBDF1E;
+    border-radius: 6px;
+    width: 150px;
+    height: 50px;
+}
+
+
+
+
